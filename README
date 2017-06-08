@@ -1,0 +1,3 @@
+The program dftc.py calculates the DFT-C empirical correction for basis set superposition error within the def2-SVPD basis, given an .xyz file.
+
+The program can be run for a meta-GGA functional, e.g., via ./dftc.py file.xyz -level meta-gga.  If the -level tag is omitted, the program defaults to GGA.
